@@ -1,9 +1,10 @@
 import React from 'react';
+import AdviceCard from './components/AdviceCard';
 
 function App() {
   return (
     <div className="App">
-      <h1>Advice Generator</h1>
+      <AdviceCard/>
     </div>
   );
 }
